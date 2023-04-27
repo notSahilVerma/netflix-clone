@@ -1,6 +1,5 @@
 import React from 'react'
 import { BsFillPlayFill } from 'react-icons/bs';
-import FavoritButton from './FavoritButton';
 import { useRouter } from 'next/router';
 import useInfoModal from '@/hooks/newInfoModal';
 import {BiChevronDown} from 'react-icons/bi';
