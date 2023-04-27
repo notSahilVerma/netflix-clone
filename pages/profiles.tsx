@@ -26,7 +26,7 @@ const Profiles = () => {
   return (
     <div className="flex items-center h-full justify-center">
       <div className="flex-flex-col">
-        <h1 className="text-3xl md:text-6xl text-white text-center">Who`&apos;`s Watching</h1>
+        <h1 className="text-3xl md:text-6xl text-white text-center">Who&apos;s Watching</h1>
         <div className="flex items-center justify-center gap-8 mt-10">
           <div onClick={() => router.push('/')}>
             <div className="group flex flex-col w-44 mx-auto">
