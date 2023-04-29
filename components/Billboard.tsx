@@ -55,7 +55,7 @@ const Billboard = () => {
                 '>
                     {data?.description}
                 </p>
-                <div className='flex flex-row items-center mt-3 md:mt-4 gap-3'>
+                <div className='flex flex-row items-center mt-3 md:mt-4 gap-3 h-[6vw]'>
                     <PlayButton movieId={data?.id} />
                    
                     <button 
@@ -75,6 +75,7 @@ const Billboard = () => {
                     hover:bg-opacity-20
                     transition
                     w-auto
+                    h-auto
                     '>
                         <AiOutlineInfoCircle className='mr-1' />
                         More Info
