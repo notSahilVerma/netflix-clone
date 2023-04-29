@@ -12,7 +12,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
     const router = useRouter();
     const {openModal}= useInfoModal();
   return (
-    <div className='group bg-zinc-900 col-span relative  h-[12vw]'>
+    <div className='group bg-zinc-900 col-span row-span relative md:h-[12vw] h-[48vw] my-2 scroll-smooth touch-auto'>
         <img 
         className='
         cursor-pointer
@@ -21,11 +21,12 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
         duration
         shadow-xl
         rounded-md
-        group-hover:opacity-90
-        sm:group-hover:opacity-0
+        group-hover:opacity-0
         delay-300
         w-full
-        h-[12vw]
+        md:h-[12vw]
+        h-[48vw]
+        
         '
         src={data.thumbnailUrl} alt="Thumbnail" />
         <div className='
@@ -42,7 +43,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
         scale-0
         group-hover:scale-110
         group-hover:-translate-y-[6vw]
-        group-hover:translate-x-[2vw]
+        md:group-hover:translate-x-[2vw]
         group-hover:opacity-100
         '>
             <img className='
@@ -53,7 +54,8 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
             shadow-xl
             rounded-t-md
             w-full
-            h-[12vw]
+            md:h-[12vw]
+            h-[48vw]
             ' src={data.thumbnailUrl} alt="" />
             <div className='
             z-10
