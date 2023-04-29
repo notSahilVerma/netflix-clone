@@ -44,7 +44,7 @@ const Billboard = () => {
                 </p>
                 <p className='
                 text-white
-                text-[10px]
+                text-[8px]
                 md:text-lg
                 mt-3
                 md:mt-8
