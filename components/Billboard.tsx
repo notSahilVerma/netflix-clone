@@ -66,8 +66,7 @@ const Billboard = () => {
                     bg-opacity-30
                     rounded-md
                     py-1 md:py-2
-                    px-1 md:px-4
-                    w-auto
+                    px-2 md:px-4
                     text-xs lg:text-lg
                     font-semibold
                     flex
@@ -75,7 +74,7 @@ const Billboard = () => {
                     items-center
                     hover:bg-opacity-20
                     transition
-                    
+                    w-auto
                     '>
                         <AiOutlineInfoCircle className='mr-1' />
                         More Info
