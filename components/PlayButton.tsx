@@ -28,7 +28,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
         h-auto
         pr-2
         '>
-            <BsFillPlayFill size={16} />
+            <BsFillPlayFill size={20} />
             Play
         </button>
     )
