@@ -26,7 +26,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
         w-full
         md:h-[12vw]
         h-[48vw]
-        touch-auto
+        
         
         '
         src={data.thumbnailUrl} alt="Thumbnail" />
@@ -37,8 +37,8 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
         transition
         duration-200
         z-10
-        invisible
-        sm:visible
+        
+        visible
         delay-300
         w-full
         scale-0
@@ -46,7 +46,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
         group-hover:-translate-y-[6vw]
         md:group-hover:translate-x-[2vw]
         group-hover:opacity-100
-        touch-auto
+        
         '>
             <img className='
             cursor-pointer
